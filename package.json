@@ -1,0 +1,38 @@
+{
+  "name": "require-data",
+  "version": "1.0.0",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "Extracts data out of multiple file types",
+  "main": "src/index.js",
+  "keywords": [
+    "require",
+    "data",
+    "json",
+    "js",
+    "sync",
+    "async"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/require-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/require-data.git"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc node_modules/mocha/bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "fsify": "^3.0.0",
+    "mocha": "^5.1.1",
+    "nyc": "^12.0.1",
+    "uuid": "^3.2.1"
+  }
+}

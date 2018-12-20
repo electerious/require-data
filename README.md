@@ -4,10 +4,10 @@
 
 A function that tries to get the data out of a file that is either…
 
-… a JSON file
-… a JS file exporting a value that is not a function
-… a JS file exporting a function
-… a JS file exporting an async function
+- … a JSON file
+- … a JS file exporting a value that is not a function
+- … a JS file exporting a function
+- … a JS file exporting an async function
 
 ## Install
 
